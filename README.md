@@ -1,2 +1,2 @@
-# Clothing-Picker-
+# ClothingPicker
 An application that gives clothing recommendations 
