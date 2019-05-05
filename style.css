@@ -1,0 +1,213 @@
+@import url("https://fonts.googleapis.com/css?family=Lobster");
+body {
+  background-color: #89FAD0;
+  font-family: 'Lobster';
+}
+
+#carousel {
+  position: absolute;
+  height: 200px;
+  width: 810px;
+  margin: auto;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+
+li:focus {
+  background: rgb(232, 235, 232);
+}
+
+form {
+  position: absolute;
+  left: 400px;
+  margin-top: 100px;
+}
+
+nav ul {
+  height: 350px;
+  width: 90%;
+}
+
+nav ul {
+  overflow: hidden;
+  overflow-y: scroll;
+}
+
+a {
+  position: absolute;
+  left: 740px;
+  margin-top: 400px;
+}
+
+a.button {
+  position: absolute;
+  left: 740px;
+  margin-top: 90px;
+}
+
+a:hover {
+  color: white;
+}
+
+.arrow {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  background-color: white;
+  text-align: center;
+  font-size: 25px;
+  border-radius: 50%;
+  cursor: pointer;
+  font-size: 20px;
+  color: #228291;
+  line-height: 30px;
+  margin-top: 85px;
+  z-index: 1000;
+}
+
+.arrow-right {
+  left: 780px;
+}
+
+.item {
+  text-align: center;
+  color: white;
+  font-size: 40px;
+  position: absolute;
+  transition: height 1s, width 1s, left 1s, margin-top 1s, line-height 1s, background-color 1s;
+}
+
+.level-2 {
+  height: 120px;
+  width: 120px;
+  line-height: 130px;
+  border-radius: 50%;
+  background-color: #228291;
+  left: 665px;
+  margin-top: 25px;
+}
+
+.level-1 {
+  height: 155px;
+  width: 155px;
+  line-height: 150px;
+  background-color: #6796E5;
+  border-radius: 50%;
+  left: 505px;
+  margin-top: 10px;
+}
+
+.level0 {
+  height: 190px;
+  width: 190px;
+  line-height: 190px;
+  background-color: #4EC9E1;
+  border-radius: 50%;
+  left: 310px;
+}
+
+.level1 {
+  height: 155px;
+  width: 155px;
+  line-height: 150px;
+  background-color: #6796E5;
+  border-radius: 50%;
+  margin-top: 10px;
+  left: 150px;
+}
+
+.level2 {
+  height: 120px;
+  width: 120px;
+  line-height: 130px;
+  border-radius: 50%;
+  background-color: #228291;
+  margin-top: 25px;
+  left: 20px;
+}
+
+.left-enter {
+  opacity: 0;
+  left: -60px;
+  height: 120px;
+  width: 90px;
+  line-height: 120px;
+  margin-top: 40px;
+}
+
+.left-enter.left-enter-active {
+  opacity: 1;
+  left: 50px;
+  height: 150px;
+  width: 110px;
+  line-height: 150px;
+  margin-top: 25px;
+  transition: left 1s, opacity 1s, height 1s, width 1s, margin-top 1s, line-height 1s;
+}
+
+.left-leave {
+  opacity: 1;
+  left: 650px;
+  height: 150px;
+  width: 110px;
+  line-height: 150px;
+  margin-top: 25px;
+}
+
+.left-leave.left-leave-active {
+  left: 780px;
+  opacity: 0;
+  height: 120px;
+  line-height: 120px;
+  margin-top: 40px;
+  width: 90px;
+  transition: left 1s, opacity 1s, height 1s, width 1s, margin-top 1s, line-height 1s;
+}
+
+.right-enter {
+  opacity: 0;
+  left: 760px;
+  height: 120px;
+  width: 90px;
+  line-height: 120px;
+  margin-top: 40px;
+}
+
+.right-enter.right-enter-active {
+  left: 650px;
+  opacity: 1;
+  height: 150px;
+  margin-top: 25px;
+  line-height: 150px;
+  width: 110px;
+  transition: left 1s, opacity 1s, height 1s, width 1s, margin-top 1s, line-height 1s;
+}
+
+.right-leave {
+  left: 50px;
+  height: 150px;
+  opacity: 1;
+  margin-top: 25px;
+  line-height: 150px;
+  width: 110px;
+}
+
+.right-leave.right-leave-active {
+  left: -60px;
+  opacity: 0;
+  height: 120px;
+  width: 90px;
+  line-height: 120px;
+  margin-top: 40px;
+  transition: left 1s, opacity 1s, height 1s, width 1s, margin-top 1s, line-height 1s;
+}
+
+.noselect {
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
