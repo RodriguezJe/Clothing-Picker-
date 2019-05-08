@@ -37,14 +37,32 @@ nav ul {
 
 a {
   position: absolute;
-  left: 740px;
+  left: 820px;
   margin-top: 400px;
 }
 
 a.button {
   position: absolute;
-  left: 740px;
+  left: 750px;
   margin-top: 90px;
+}
+
+a.back {
+  position: absolute;
+  left: 630px;
+  margin-top: 400px;
+}
+
+a.backButton {
+  position: absolute;
+  left: 550px;
+  margin-top: 90px;
+}
+
+a.index {
+  position: absolute;
+  left: 740px;
+  margin-top: 400px;
 }
 
 a:hover {
