@@ -35,6 +35,18 @@ nav ul {
   overflow-y: scroll;
 }
 
+p.choice {
+  position: absolute;
+  left: 515px;
+  margin-top: 105px;
+}
+
+p.choice2 {
+  position: absolute;
+  left: 585px;
+  margin-top: 105px;
+}
+
 a {
   position: absolute;
   left: 820px;
