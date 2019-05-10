@@ -27,7 +27,7 @@ form {
 
 nav ul {
   height: 350px;
-  width: 90%;
+  width: 95%;
 }
 
 nav ul {
@@ -36,14 +36,16 @@ nav ul {
 }
 
 p.choice {
-  position: absolute;
-  left: 515px;
+  font-size: 15pt;
+  text-align: center;
   margin-top: 105px;
+  position: center;
 }
 
 p.choice2 {
-  position: absolute;
-  left: 585px;
+  font-size: 15pt;
+  text-align: center;
+  position: center;
   margin-top: 105px;
 }
 
@@ -54,27 +56,33 @@ a {
 }
 
 a.button {
-  position: absolute;
-  left: 750px;
+  text-align: center;
+  left: 850px;
   margin-top: 90px;
 }
 
 a.back {
+  text-align: center;
+  left: 630px;
+  margin-top: 272px;
+}
+
+a.backB {
   position: absolute;
   left: 630px;
   margin-top: 400px;
 }
 
 a.backButton {
-  position: absolute;
-  left: 550px;
+  text-align: center;
+  left: 650px;
   margin-top: 90px;
 }
 
 a.index {
-  position: absolute;
+  text-align: center;
   left: 740px;
-  margin-top: 400px;
+  margin-top: 350px;
 }
 
 a:hover {
