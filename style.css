@@ -15,14 +15,85 @@ body {
   bottom: 0;
 }
 
+div.header {
+  text-align: center;
+}
+
+div.choice {
+  text-align: center;
+}
+
+div.next {
+  text-align: center;
+  display: block;
+  margin-top: 25%;
+}
+
+div.next2 {
+  margin-top: 15%;
+  float: right;
+  display: block;
+}
+
+div.next3 {
+  margin-top: 30%;
+  float: right;
+  display: block;
+}
+
+div.next4 {
+  margin-top: 5%;
+  float: right;
+  display: block;
+}
+
+div.previous {
+  margin-top: 15%;
+  float: left;
+  display: block;
+}
+
+div.previous2 {
+  margin-top: 30%;
+  float: left;
+  display: block;
+}
+
+div.previous3 {
+  margin-top: 5%;
+  float: left;
+  display: block;
+}
+
+div.textbox {
+  text-align: center;
+}
+
+div.text {
+  text-align: left;
+}
+
+div.CShopping {
+  margin-top: -5%;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+  padding: 8px 15px;
+  background-color: #f1f1f1;
+}
+
 li:focus {
   background: rgb(232, 235, 232);
 }
 
 form {
-  position: absolute;
-  left: 400px;
-  margin-top: 100px;
+  display: inline-block;
+  margin-top: 5%;
+  font-size: 130%;
+  text-align: left;
 }
 
 nav ul {
@@ -33,56 +104,6 @@ nav ul {
 nav ul {
   overflow: hidden;
   overflow-y: scroll;
-}
-
-p.choice {
-  font-size: 15pt;
-  text-align: center;
-  margin-top: 105px;
-  position: center;
-}
-
-p.choice2 {
-  font-size: 15pt;
-  text-align: center;
-  position: center;
-  margin-top: 105px;
-}
-
-a {
-  position: absolute;
-  left: 820px;
-  margin-top: 400px;
-}
-
-a.button {
-  text-align: center;
-  left: 850px;
-  margin-top: 90px;
-}
-
-a.back {
-  text-align: center;
-  left: 630px;
-  margin-top: 272px;
-}
-
-a.backB {
-  position: absolute;
-  left: 630px;
-  margin-top: 400px;
-}
-
-a.backButton {
-  text-align: center;
-  left: 650px;
-  margin-top: 90px;
-}
-
-a.index {
-  text-align: center;
-  left: 740px;
-  margin-top: 350px;
 }
 
 a:hover {
