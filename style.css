@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Lobster");
 body {
-  background-color: #89FAD0;
-  font-family: 'Lobster';
+  background-color: #51d0de;
+  font-family: 'Roboto';
 }
 
 #carousel {
@@ -17,10 +17,14 @@ body {
 
 div.header {
   text-align: center;
+  color: #bf4aa8;
+  font-size: 180%;
 }
 
 div.choice {
   text-align: center;
+  color:white;
+  font-size: 130%;
 }
 
 div.next {
@@ -36,7 +40,7 @@ div.next2 {
 }
 
 div.next3 {
-  margin-top: 30%;
+  margin-top: 25%;
   float: right;
   display: block;
 }
@@ -54,7 +58,7 @@ div.previous {
 }
 
 div.previous2 {
-  margin-top: 30%;
+  margin-top: 25%;
   float: left;
   display: block;
 }
@@ -81,6 +85,7 @@ div.CShopping {
 a {
   text-decoration: none;
   display: inline-block;
+  color:#bf4aa8;
   padding: 8px 15px;
   background-color: #f1f1f1;
 }
@@ -107,7 +112,7 @@ nav ul {
 }
 
 a:hover {
-  color: white;
+  color: #51d0de;
 }
 
 .arrow {
@@ -127,7 +132,12 @@ a:hover {
 }
 
 .arrow-right {
-  left: 780px;
+  left: 790px;
+}
+
+.arrow-left{
+
+  right: 800px;
 }
 
 .item {
@@ -143,7 +153,9 @@ a:hover {
   width: 120px;
   line-height: 130px;
   border-radius: 50%;
-  background-color: #228291;
+  background-color:white;
+  color:#bf4aa8;
+ 
   left: 665px;
   margin-top: 25px;
 }
@@ -152,7 +164,8 @@ a:hover {
   height: 155px;
   width: 155px;
   line-height: 150px;
-  background-color: #6796E5;
+  background-color: #bf4aa8;
+  color:white;
   border-radius: 50%;
   left: 505px;
   margin-top: 10px;
@@ -162,7 +175,8 @@ a:hover {
   height: 190px;
   width: 190px;
   line-height: 190px;
-  background-color: #4EC9E1;
+  background-color: white;
+  color:#bf4aa8;
   border-radius: 50%;
   left: 310px;
 }
@@ -171,7 +185,8 @@ a:hover {
   height: 155px;
   width: 155px;
   line-height: 150px;
-  background-color: #6796E5;
+  background-color: #bf4aa8;
+  color:white;
   border-radius: 50%;
   margin-top: 10px;
   left: 150px;
@@ -182,7 +197,8 @@ a:hover {
   width: 120px;
   line-height: 130px;
   border-radius: 50%;
-  background-color: #228291;
+  background-color: white;
+  color:#bf4aa8;
   margin-top: 25px;
   left: 20px;
 }
