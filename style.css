@@ -15,6 +15,18 @@ body {
   bottom: 0;
 }
 
+div.intro {
+  border-radius: 25px;
+  height: 180px;
+  width: 500px;
+  background-color: #51d0de;
+  margin: auto;
+  left: 35%;
+  text-align: center;
+  color: #bf4aa8;
+  font-size: 200%;
+}
+
 div.header {
   text-align: center;
   color: #bf4aa8;
@@ -23,8 +35,13 @@ div.header {
 
 div.choice {
   text-align: center;
-  color:white;
+  color: white;
   font-size: 130%;
+}
+
+div.nextIntro {
+  text-align: center;
+  display: block;
 }
 
 div.next {
@@ -85,7 +102,7 @@ div.CShopping {
 a {
   text-decoration: none;
   display: inline-block;
-  color:#bf4aa8;
+  color: #bf4aa8;
   padding: 8px 15px;
   background-color: #f1f1f1;
 }
@@ -135,8 +152,7 @@ a:hover {
   left: 790px;
 }
 
-.arrow-left{
-
+.arrow-left {
   right: 800px;
 }
 
@@ -153,9 +169,8 @@ a:hover {
   width: 120px;
   line-height: 130px;
   border-radius: 50%;
-  background-color:white;
-  color:#bf4aa8;
- 
+  background-color: white;
+  color: #bf4aa8;
   left: 665px;
   margin-top: 25px;
 }
@@ -165,7 +180,7 @@ a:hover {
   width: 155px;
   line-height: 150px;
   background-color: #bf4aa8;
-  color:white;
+  color: white;
   border-radius: 50%;
   left: 505px;
   margin-top: 10px;
@@ -176,7 +191,7 @@ a:hover {
   width: 190px;
   line-height: 190px;
   background-color: white;
-  color:#bf4aa8;
+  color: #bf4aa8;
   border-radius: 50%;
   left: 310px;
 }
@@ -186,7 +201,7 @@ a:hover {
   width: 155px;
   line-height: 150px;
   background-color: #bf4aa8;
-  color:white;
+  color: white;
   border-radius: 50%;
   margin-top: 10px;
   left: 150px;
@@ -198,7 +213,7 @@ a:hover {
   line-height: 130px;
   border-radius: 50%;
   background-color: white;
-  color:#bf4aa8;
+  color: #bf4aa8;
   margin-top: 25px;
   left: 20px;
 }
