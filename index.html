@@ -16,8 +16,40 @@
   <link rel="icon" href="favicon.ico">
 
 </head>
+<style>
+  .tooltip {
+    position: relative;
+    display: inline-block;
+    font-size: 170%;
+    color: white;
+    
+  }
+
+  .tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    font-size: 70%;
+
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+  }
+
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
+  }
+</style>
 
 <body>
+  <div class="tooltip">?
+    <span class="tooltiptext">Use the carousel to define your occasion and click the button to move on</span>
+  </div>
   <br>
 
   <div class="header">

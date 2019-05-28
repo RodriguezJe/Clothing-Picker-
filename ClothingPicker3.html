@@ -20,8 +20,40 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="icon" href="favicon.ico">
 </head>
+<style>
+    .tooltip {
+        position: relative;
+        display: inline-block;
+        font-size: 170%;
+        color: white;
+
+    }
+
+    .tooltip .tooltiptext {
+        visibility: hidden;
+        width: 120px;
+        background-color: black;
+        color: #fff;
+        font-size: 70%;
+
+        text-align: center;
+        border-radius: 6px;
+        padding: 5px 0;
+
+        /* Position the tooltip */
+        position: absolute;
+        z-index: 1;
+    }
+
+    .tooltip:hover .tooltiptext {
+        visibility: visible;
+    }
+</style>
 
 <body>
+    <div class="tooltip">?
+        <span class="tooltiptext">Click on the clothing item to select it and the next button to move on</span>
+    </div>
     <br>
 
     <div class="header">
@@ -36,31 +68,31 @@
     <nav>
         <ul style="list-style-type:none;">
             <li tabindex="1">
-                <font size="5">Normal Pants $15</font>
+                <font size="5"> Women's Straight Jeans $15</font>
             </li>
             <dd> Amazon.com</dd>
             <br>
             <br>
             <li tabindex="1">
-                <font size="5">Dress Pants $500</font>
+                <font size="5"> Men's Dress Pants $500</font>
             </li>
             <dd> Macys </dd>
             <br>
             <br>
             <li tabindex="1">
-                <font size="5">Fancy Pants $399</font>
+                <font size="5">Women's Fancy Pants $399</font>
             </li>
             <dd> Gucci </dd>
             <br>
             <br>
             <li tabindex="1">
-                <font size="5">Levi Jean $50</font>
+                <font size="5">Men's Levi Jean $50</font>
             </li>
             <dd> Walmart </dd>
             <br>
             <br>
             <li tabindex="1">
-                <font size="5">Sweatpants $60</font>
+                <font size="5"> Women's Sweatpants $60</font>
             </li>
             <dd> Nike </dd>
 
@@ -68,7 +100,7 @@
 
         <div class="next4">
             <a href="./ClothingPicker4.html" class="button">
-                <font size="5">Next Pages</font>
+                <font size="5">Next Page</font>
             </a>
 
 

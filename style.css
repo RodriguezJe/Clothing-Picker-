@@ -35,7 +35,7 @@ div.header {
 
 div.choice {
   text-align: center;
-  color: white;
+  color: black;
   font-size: 130%;
 }
 
@@ -81,7 +81,7 @@ div.previous2 {
 }
 
 div.previous3 {
-  margin-top: 5%;
+  margin-top: 3.5%;
   float: left;
   display: block;
 }
