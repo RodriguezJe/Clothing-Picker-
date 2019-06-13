@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Lobster");
 body {
-  background-color: #51d0de;
+  background-color: #ffffff;
   font-family: 'Roboto';
 }
 
@@ -19,18 +19,24 @@ div.intro {
   border-radius: 25px;
   height: 180px;
   width: 500px;
-  background-color: #51d0de;
+  background-color: #ffffff;
   margin: auto;
   left: 35%;
   text-align: center;
-  color: #bf4aa8;
+  color: black;
   font-size: 200%;
+}
+
+div.headerIntro {
+  text-align: center;
+  color: #03dac5;
+  font-size: 230%;
 }
 
 div.header {
   text-align: center;
-  color: #bf4aa8;
-  font-size: 180%;
+  color: #03dac5;
+  font-size: 210%;
 }
 
 div.choice {
@@ -47,17 +53,18 @@ div.nextIntro {
 div.next {
   text-align: center;
   display: block;
-  margin-top: 25%;
+  margin-top: 23%;
+  margin-left: .6%;
 }
 
 div.next2 {
-  margin-top: 15%;
+  margin-top: 12%;
   float: right;
   display: block;
 }
 
 div.next3 {
-  margin-top: 25%;
+  margin-top: 24.5%;
   float: right;
   display: block;
 }
@@ -69,25 +76,26 @@ div.next4 {
 }
 
 div.previous {
-  margin-top: 15%;
+  margin-top: 11.5%;
   float: left;
   display: block;
 }
 
 div.previous2 {
-  margin-top: 25%;
+  margin-top: 24%;
   float: left;
   display: block;
 }
 
 div.previous3 {
-  margin-top: 3.5%;
+  margin-top: 3.85%;
   float: left;
   display: block;
 }
 
 div.textbox {
   text-align: center;
+  font-size: 100%;
 }
 
 div.text {
@@ -102,9 +110,10 @@ div.CShopping {
 a {
   text-decoration: none;
   display: inline-block;
-  color: #bf4aa8;
+  color: black;
   padding: 8px 15px;
-  background-color: #f1f1f1;
+  background-color: #C0C0C0;
+  border: 3px solid #000;
 }
 
 li:focus {
@@ -129,93 +138,97 @@ nav ul {
 }
 
 a:hover {
-  color: #51d0de;
+  color: #03Dac5;
 }
 
 .arrow {
   position: absolute;
   width: 30px;
   height: 30px;
-  background-color: white;
+  background-color: black;
   text-align: center;
   font-size: 25px;
   border-radius: 50%;
   cursor: pointer;
   font-size: 20px;
-  color: #228291;
+  color: white;
   line-height: 30px;
   margin-top: 85px;
   z-index: 1000;
 }
 
 .arrow-right {
-  left: 790px;
+  left: 105%;
 }
 
 .arrow-left {
-  right: 800px;
+  right: 103%;
 }
 
 .item {
   text-align: center;
   color: white;
-  font-size: 40px;
   position: absolute;
   transition: height 1s, width 1s, left 1s, margin-top 1s, line-height 1s, background-color 1s;
 }
 
 .level-2 {
-  height: 120px;
-  width: 120px;
-  line-height: 130px;
+  height: 130px;
+  width: 130px;
+  line-height: 120px;
   border-radius: 50%;
-  background-color: white;
-  color: #bf4aa8;
-  left: 665px;
+  background-color: #009688;
+  color: black;
+  font-size: 80%;
+  left: 690px;
   margin-top: 25px;
 }
 
 .level-1 {
-  height: 155px;
-  width: 155px;
+  height: 160px;
+  width: 160px;
   line-height: 150px;
-  background-color: #bf4aa8;
-  color: white;
+  background-color: #009688;
+  color: black;
+  font-size: 100%;
   border-radius: 50%;
-  left: 505px;
+  left: 520px;
   margin-top: 10px;
 }
 
 .level0 {
-  height: 190px;
-  width: 190px;
+  height: 200px;
+  width: 200px;
   line-height: 190px;
-  background-color: white;
-  color: #bf4aa8;
+  background-color: #03dac5;
+  color: black;
+  font-size: 210%;
   border-radius: 50%;
   left: 310px;
 }
 
 .level1 {
-  height: 155px;
-  width: 155px;
+  height: 160px;
+  width: 160px;
   line-height: 150px;
-  background-color: #bf4aa8;
-  color: white;
+  background-color: #009688;
+  color: black;
+  font-size: 100%;
   border-radius: 50%;
   margin-top: 10px;
-  left: 150px;
+  left: 140px;
 }
 
 .level2 {
-  height: 120px;
-  width: 120px;
+  height: 130px;
+  width: 130px;
   line-height: 130px;
   border-radius: 50%;
-  background-color: white;
-  color: #bf4aa8;
+  background-color: #009688;
+  color: black;
+  font-size: 80%;
   margin-top: 25px;
-  left: 20px;
+  left: 2px;
 }
 
 .left-enter {

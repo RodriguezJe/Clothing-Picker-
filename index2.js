@@ -113,5 +113,5 @@ var Item = function (_React$Component2) {
     return Item;
 }(React.Component);
 
-var items = ["Wedding", "Meeting", "Concert", "Interview", "Date"];
+var items = ["Pants", "Shoes", "Shirts", "Dress", "Accessories"];
 ReactDOM.render(React.createElement(Carousel, { items: items, active: 0 }), document.getElementById('app'));
